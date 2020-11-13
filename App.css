@@ -1,0 +1,30 @@
+body{
+  background-color: blue;
+}
+
+.App {
+
+  background-color: rgb(122, 11, 11);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  
+}
+
+#employeeForm input{
+  background-color: rgb(27,112,137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+
+}
+
+#employeeForm input::placeholder{
+
+  color: rgbaZZ(255,255,255,0.5);
+}
